@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <link rel="stylesheet" href="style/stlyeMainPage.css">
+    <link rel="stylesheet" href="style/gamePlayStyle.css">
+    <link href="http://fonts.cdnfonts.com/css/common-pixel" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="main-title-game"> King Kong <b>vs</b> GodZilla Game</h1>
+    <div id="game-show-area">
+
+        <div id="game-area">
+            <div class="backgroundImage">
+                <img src="resources/background-image.jpg" class="backgroundImage" alt="">
+            </div>
+            <div id="playerDetails">
+                <div id="player1-Details">
+                    <p1 id="player1Name">ZodGilla (YOU)</p1>
+                    <div class ="playerHealthBar">
+                        <progress value="" max="100" id="player1HealthBar"></progress>
+                    </div>
+                    <div class="playerSpecialAttack">
+                        <progress value="" max="60" id = "player1SpecialAttack"></progress>
+                    </div>
+
+                </div>
+                <div id="versis-sign-div">
+                    <img src="resources/versis-sign.png" alt="" id="versis-sign">
+                </div>
+
+                <div id="player2-Details">
+                    <p1 id="player2Name">DingDong(Computer)</p1>
+                    <div class ="playerHealthBar">
+                        <progress value="" max="100" id="player2HealthBar"></progress>
+                    </div>
+                    <div class="playerSpecialAttack">
+                        <progress value="" max="60" id = "player2SpecialAttack"></progress>
+                    </div>
+                    
+                </div>
+                <div class="playerCharacter" id="player1CharacterImg">
+                    <img src="resources/player-one-gorilla.png" alt="resources/player-one-gorilla.png" id="player1Character">
+                </div>
+
+                <div class="playerCharacter" id="player2CharacterImg">
+                    <img src="resources/player-two-dinosaur.png" alt="resources/player-two-dinosaur.png" id="player2Character">
+                </div>
+
+            </div>
+        </div>
+</body>
+
+
+<script src="scripts/GamePlay.js"></script>
+
+
+</html>

@@ -1,0 +1,51 @@
+#playerDetails{
+    display: flex;
+    justify-content: space-around;
+    position:absolute;
+}
+
+#player2-Details , #player1-Details{
+    display: inline;
+    font-size: 40px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 220px;
+    margin-right: 190px;
+    font-family: 'Common Pixel', sans-serif;
+}
+
+.playerHealthBar{
+    display: inline;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #eeeeee;
+}
+.playerCharacter{
+    display: inline;
+   
+}
+
+#player2Character , #player1Character{
+    position: absolute;
+    display: inline;
+    margin-left: 100px;
+    top: 288px;
+    height: 340px;
+    width: 320px;
+}
+
+#player2Character{
+left: 177px;
+}
+#player1Character{
+right: 280px;
+    }
+
+#versis-sign{
+    position: absolute;
+    height: 270px;
+    width: 250px;
+    left: 710px;
+    top: -40px;
+    }
